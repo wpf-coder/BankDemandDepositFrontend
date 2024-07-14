@@ -1,0 +1,107 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+	list-style: none;
+}
+
+.container {
+	/*实现全面布局*/
+	height: 100vh;
+}
+
+.el-header {
+	background-color: #0066B3;
+	color: #333;
+	text-align: center;
+	line-height: 60px;
+}
+
+.el-footer {
+	background-color: #0066B3;
+	color: #333;
+	text-align: center;
+	line-height: 60px;
+}
+
+._tag {
+	border: 1px solid green;
+	flex: 0 0 40px;
+	display: flex;
+	align-items: center;
+	background-color: white;
+	border-bottom: 1px solid #e6e6e6;
+	justify-content: space-between;
+
+	.left {
+		display: flex;
+		height: 40px;
+		align-items: center;
+
+		.el-tag {
+			margin-left: 6px;
+
+			.tag-title {
+				color: black;
+				padding: 8px 2px;
+				text-decoration: none;
+			}
+		}
+	}
+
+	._dropdown {
+		height: 40px;
+		display: flex;
+		align-items: center;
+		background-color: white;
+		box-shadow: rgba(0, 0, 0, 0.1) -3px 0px 15px 3px;
+		padding: 0 5px;
+	}
+}
+
+.el-aside {
+	background-color: #FFFFFF;
+	color: #333;
+	scrollbar-width: thin;
+}
+
+.el-main {
+	background-color: #E9EEF3;
+	color: #333;
+	text-align: center;
+	/* line-height: 60px; */
+
+}
+
+.el-menu-vertical-demo {
+	height: 100%;
+	text-align: left;
+
+}
+
+.tac {
+	width: 100%;
+	text-align: left;
+}
+
+.tou {
+	height: 80px;
+	font-size: 150%;
+	text-align: center;
+}
+
+.el-menu-vertical-demo:not(.el-menu--collapse) {
+	min-height: 400px;
+}
+
+.tou2 {
+	color: aliceblue;
+	height: 70px;
+}
+
+.tou3 {
+	color: aliceblue;
+	height: 80px;
+	font-size: 150%;
+	line-height: 70px;
+}
